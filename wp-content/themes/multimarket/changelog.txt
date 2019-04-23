@@ -1,0 +1,54 @@
+1.0.14 - 4-12-2018
+- Fix outdate template WooCommerce 3.5.2
+
+1.0.13 - 02-11-2018
+- Fix login form issue in my account page 
+- Compatible with woocommerce 3.5.1
+
+1.0.12 - 
+- Fix hide product price option in shop page 
+- Fix hide product price option in single product page 
+- Compatible with woocommerce 3.5.0
+
+1.0.11 - 31-07-2018
+- Contact Template - Google Maps - option to use Embed Map without API key
+- Contact Template - Google Maps - option to change map height (px)
+
+1.0.10 - 03-07-2018
+- Compatible with Dokan lite Version 2.8.2
+
+1.0.9 - 30-05-2018
+- Compatible with woocommerce 3.4.0
+
+1.0.8 - 16-04-2018
+- fix live preview button in single product page
+
+1.0.7 - 07-03-2018
+- fix some issue in woocommerce pages
+
+1.0.6 - 28-02-2018
+- fix mis url import demo data
+
+1.0.5 - 22-02-2018
+- update demo data ( new homepage 5, 6)
+
+1.0.4 - 21-02-2018
+- Compatible woocommrce 3.3.2
+
+1.0.3 - 11-12-2017
+- Add import demo data import button
+- Fix my order url in user menu
+- Fix my order page 
+
+1.0.2 - 16-10-2017
+- Fix woocommerce query filter in king composer elements
+- Fix woocommerce outdate template 
+- Compatible with woocommerce 3.2.1
+
+1.0.1 - 04-10-2017
+- Fix Widgets issue
+- Fix hide rating options
+- fix Popup Login 
+
+1.0
+- Initial Release

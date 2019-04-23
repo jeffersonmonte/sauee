@@ -1,0 +1,260 @@
+/*
+Theme Name: Multimarket
+Theme URI: http://demo.tokomoo.com/multimarket/
+Author: Tokomoo
+Author URI: http://tokomoo.com
+Description: Premium theme by Tokomoo.com
+Version: 1.0.14
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: multimarket
+Tags: one-column, two-columns, right-sidebar, custom-background, custom-colors, custom-header, custom-menu, featured-images, full-width-template, theme-options, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+underscores is based on Underscores http://underscores.me/, (C) 2012-2015 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
+*/ 
+
+/* =================================
+------------------------------------
+  Sauee Template
+  Version: 1.0
+ ------------------------------------
+ ====================================*/
+
+ html,
+ body {
+ 	height: 100%;
+ 	font-family: 'Montserrat', sans-serif;
+ 	-webkit-font-smoothing: antialiased;
+ 	font-smoothing: antialiased;
+ }
+
+h1 {
+    font-size: 26px;
+}
+
+
+ h2 {
+ 	font-size: 36px;
+ }
+
+ h3 {
+ 	font-size: 30px;
+ }
+
+ h4 {
+ 	font-size: 24px;
+ }
+
+ h5 {
+ 	font-size: 18px;
+ }
+
+ h6 {
+ 	font-size: 16px;
+ }
+
+ p {
+ 	font-size: 14px;
+ 	color: #585858;
+ 	line-height: 2;
+ }
+
+ img {
+ 	max-width: 100%;
+ }
+
+ input:focus,
+ select:focus,
+ button:focus,
+ textarea:focus {
+ 	outline: none;
+ }
+
+ a:hover,
+ a:focus {
+ 	text-decoration: none;
+ 	outline: none;
+ }
+
+ ul,
+ ol {
+ 	padding: 0;
+ 	margin: 0;
+ }
+
+
+ /*------------------
+  Header section
+---------------------*/
+
+.header-section {
+  position: absolute;
+	width: 100%;
+	padding-top: 25px;
+	z-index: 99;
+  background: linear-gradient(100deg, #2A2133, #3C444C);
+  height: 100px;
+}
+
+.site-logo {
+	display: inline-block;
+	margin-left: 120px;
+}
+
+.nav-switch {
+	display: none;
+}
+
+.nav-warp {
+	float: right;
+}
+
+.main-menu {
+	list-style: none;
+	float: right;
+	padding-top: 10px;
+}
+
+.main-menu li {
+	display: inline;
+}
+
+.main-menu li a {
+	display: inline-block;
+	font-size: 12px;
+	color: #fff;
+	margin-left: 20px;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+  text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.main-menu li a:hover {
+	background: linear-gradient(90deg, #F27A54 0%, #A154F2 186.42%);
+}
+
+.user-panel {
+	float: right;
+	background: linear-gradient(90deg, #F27A54 0%, #A154F2 186.42%);
+	color: #fff;
+	margin-left: 30px;
+	margin-right: 70px;
+	margin-top: 5px;
+	font-size: 14px;
+	padding: 12px 19px;
+	line-height: 1;
+	border-radius: 14px;
+}
+
+.user-panel a {
+	color: #fff;
+}
+
+.social-media{
+  list-style: none;
+	float: right;
+	padding-top: 10px;
+  padding-left: 30px;
+}
+
+.social-media a {
+  display: inline-block;
+	margin-left: 15px;
+}
+
+
+.v-header{
+  height:100vh;
+  display:flex;
+  align-items:center;
+  color:#fff;
+}
+
+
+.fullscreen-video-wrap{
+  position: absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100vh;
+  overflow:hidden;
+}
+
+.fullscreen-video-wrap video{
+  min-height:100%;
+  min-width:100%;
+}
+
+.header-overlay{
+  height:100vh;
+  position: absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  z-index:1;
+  background:#F27A54;
+  opacity:0.27;
+}
+
+.header-content{
+  z-index:2;
+  max-width:960px;
+  padding-left:1rem;
+  padding-right:1rem;
+  margin:auto;
+  text-align:center;
+}
+
+.header-content h1{
+  font-size:30px;
+  margin-bottom:0;
+}
+
+.header-content p{
+  font-size:1.5rem;
+  display:block;
+  color:#FFFFFF;
+}
+
+.btn{
+  background: linear-gradient(90deg, #F27A54 0%, #A154F2 186.42%);
+  color:#fff;
+  text-decoration: none;
+}
+
+.section{
+  padding:30px 0;
+}
+
+.testimony{
+
+}
+
+
+.testimony h1{
+  font-family: Zilla Slab;
+font-style: normal;
+font-weight: normal;
+font-size: 44px;
+line-height: 56px;
+
+}
+
+/* rating star */
+
+
+.rivne-rating{
+	width:90px;
+	height: 16px;
+	color: #FFB800;
+}

@@ -1,0 +1,18 @@
+
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /sauee/
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /sauee/index.php [L]
+</IfModule>
+
+php_value upload_max_filesize 500M
+php_value post_max_size 500M
+php_value memory_limit 500M
+php_value max_execution_time 600
+php_value max_input_time 600
+
+# END WordPress

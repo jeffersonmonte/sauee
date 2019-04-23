@@ -1,0 +1,39 @@
+
+---Downloaded files---
+The import files for: Multimarket - Marketplace were successfully downloaded!
+Initial max execution time = 30
+Files info:
+Site URL = https://sauee.com.br
+Data file = /home/sauee564/public_html/wp-content/uploads/2019/02/demo-content-import-file_2019-02-06__08-59-13.xml
+Widget file = /home/sauee564/public_html/wp-content/uploads/2019/02/demo-widgets-import-file_2019-02-06__08-59-13.json
+Customizer file = /home/sauee564/public_html/wp-content/uploads/2019/02/demo-customizer-import-file_2019-02-06__08-59-13.dat
+Redux files:
+not defined!
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
