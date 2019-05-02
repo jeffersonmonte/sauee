@@ -18,8 +18,8 @@ $dokan_store_page = has_shortcode( get_post_field( 'post_content', get_the_ID() 
 ?>
 
 <div class="page-header page-header--center">
-	<div class="page-header-bg">
-		<?php 
+	<!--<div class="page-header-bg">
+		<?php /*
 			$page_details 	= multimarket_get_meta( '_page_details' );
 			if ( is_page() && ! empty( $page_details['perpage_page_title_background'] ) ) {
 				$get_page_title_bg 		= wp_get_attachment_image_src( $page_details['perpage_page_title_background'], 'full' );
@@ -32,9 +32,9 @@ $dokan_store_page = has_shortcode( get_post_field( 'post_content', get_the_ID() 
 				$page_title_bg 			=  get_theme_mod( 'multimarket_page_title_background' );
 				$page_title_background 	= ! empty( $page_title_bg ) ?  'style="background-image:url('.multimarket_resize( $page_title_bg, 1600, 600 ).')"' : '';
 			}
-		 	?>
+		 	*/?>
 		<div class="bg" <?php echo ''.$page_title_background; ?>></div>
-	</div>
+	</div>-->
 
 	<div class="container">
 

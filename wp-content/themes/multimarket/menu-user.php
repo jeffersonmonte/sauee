@@ -56,8 +56,9 @@ if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 			</div>
 
 		<?php else : ?>
-			<div class="user-panel">
-			<a class="open-login-popup" href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ); ?>">Login/Criar conta</a>
+
+			<div class="menu-nologin-user-wrap">
+				<a class="open-login-popup" href="<?php echo esc_url( get_permalink( get_option( 'woocommerce_myaccount_page_id' ) ) ); ?>"><?php esc_html_e( 'Log In', 'multimarket' ); ?></a>
 			</div>
 
 		<?php endif; ?>
